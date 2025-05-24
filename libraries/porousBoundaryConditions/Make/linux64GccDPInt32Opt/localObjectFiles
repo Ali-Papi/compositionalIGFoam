@@ -1,0 +1,5 @@
+LOCAL_OBJECTS = \
+darcyGradPressure.o\
+darcyGradPressureAniso.o\
+eventFlux.o\
+eventInfiltration.o

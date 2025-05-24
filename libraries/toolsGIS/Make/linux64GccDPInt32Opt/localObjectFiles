@@ -1,0 +1,9 @@
+LOCAL_OBJECTS = \
+DEMfile.o\
+XYfile.o\
+eventFile.o\
+outputField.o\
+outputEventFile.o\
+sourceEventFile.o\
+patchEventFile.o\
+infiltrationEventFile.o

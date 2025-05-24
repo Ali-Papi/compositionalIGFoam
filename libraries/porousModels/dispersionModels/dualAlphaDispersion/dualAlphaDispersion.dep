@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/dualAlphaDispersion.o: dispersionModels/dualAlphaDispersion/dualAlphaDispersion.dep
+dispersionModels/dualAlphaDispersion/dualAlphaDispersion.dep: dispersionModels/dualAlphaDispersion/dualAlphaDispersion.C
+dispersionModels/dualAlphaDispersion/dualAlphaDispersion.dep: dispersionModels/dualAlphaDispersion/dualAlphaDispersion.H
+dispersionModels/dualAlphaDispersion/dualAlphaDispersion.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/dualAlphaDispersion.o: $(EXE_DEP)
+$(OBJECTS_DIR)/dualAlphaDispersion.o:
+	@SOURCE_DIR=dispersionModels/dualAlphaDispersion
+	SOURCE=dispersionModels/dualAlphaDispersion/dualAlphaDispersion.C ; $(Ctoo)

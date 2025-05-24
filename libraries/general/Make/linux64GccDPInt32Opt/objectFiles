@@ -1,0 +1,3 @@
+OBJECTS = \
+$(OBJECTS_DIR)/PMFversion.o\
+$(OBJECTS_DIR)/keywords.o

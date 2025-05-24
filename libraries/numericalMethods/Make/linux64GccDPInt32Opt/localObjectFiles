@@ -1,0 +1,11 @@
+LOCAL_OBJECTS = \
+EulerD3dt3Scheme.o\
+timestepManagerIterative.o\
+timestepManagerTruncation.o\
+multiDtManager.o\
+JacobianMatrix.o\
+multiMesh.o\
+multiMeshNew.o\
+simpleMesh.o\
+dualStaticMesh.o\
+dualDynamicMesh.o

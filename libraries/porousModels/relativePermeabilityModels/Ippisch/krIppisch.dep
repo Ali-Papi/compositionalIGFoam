@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/krIppisch.o: relativePermeabilityModels/Ippisch/krIppisch.dep
+relativePermeabilityModels/Ippisch/krIppisch.dep: relativePermeabilityModels/Ippisch/krIppisch.C
+relativePermeabilityModels/Ippisch/krIppisch.dep: relativePermeabilityModels/Ippisch/krIppisch.H
+relativePermeabilityModels/Ippisch/krIppisch.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/krIppisch.o: $(EXE_DEP)
+$(OBJECTS_DIR)/krIppisch.o:
+	@SOURCE_DIR=relativePermeabilityModels/Ippisch
+	SOURCE=relativePermeabilityModels/Ippisch/krIppisch.C ; $(Ctoo)

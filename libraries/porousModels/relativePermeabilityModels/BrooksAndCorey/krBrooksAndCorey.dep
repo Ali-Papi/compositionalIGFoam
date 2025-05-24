@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/krBrooksAndCorey.o: relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.dep
+relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.dep: relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.C
+relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.dep: relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.H
+relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/krBrooksAndCorey.o: $(EXE_DEP)
+$(OBJECTS_DIR)/krBrooksAndCorey.o:
+	@SOURCE_DIR=relativePermeabilityModels/BrooksAndCorey
+	SOURCE=relativePermeabilityModels/BrooksAndCorey/krBrooksAndCorey.C ; $(Ctoo)

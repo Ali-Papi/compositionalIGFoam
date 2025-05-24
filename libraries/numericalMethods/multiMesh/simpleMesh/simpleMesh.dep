@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/simpleMesh.o: multiMesh/simpleMesh/simpleMesh.dep
+multiMesh/simpleMesh/simpleMesh.dep: multiMesh/simpleMesh/simpleMesh.C
+multiMesh/simpleMesh/simpleMesh.dep: multiMesh/simpleMesh/simpleMesh.H
+multiMesh/simpleMesh/simpleMesh.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/simpleMesh.o: $(EXE_DEP)
+$(OBJECTS_DIR)/simpleMesh.o:
+	@SOURCE_DIR=multiMesh/simpleMesh
+	SOURCE=multiMesh/simpleMesh/simpleMesh.C ; $(Ctoo)

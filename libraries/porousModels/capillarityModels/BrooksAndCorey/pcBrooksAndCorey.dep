@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/pcBrooksAndCorey.o: capillarityModels/BrooksAndCorey/pcBrooksAndCorey.dep
+capillarityModels/BrooksAndCorey/pcBrooksAndCorey.dep: capillarityModels/BrooksAndCorey/pcBrooksAndCorey.C
+capillarityModels/BrooksAndCorey/pcBrooksAndCorey.dep: capillarityModels/BrooksAndCorey/pcBrooksAndCorey.H
+capillarityModels/BrooksAndCorey/pcBrooksAndCorey.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/pcBrooksAndCorey.o: $(EXE_DEP)
+$(OBJECTS_DIR)/pcBrooksAndCorey.o:
+	@SOURCE_DIR=capillarityModels/BrooksAndCorey
+	SOURCE=capillarityModels/BrooksAndCorey/pcBrooksAndCorey.C ; $(Ctoo)

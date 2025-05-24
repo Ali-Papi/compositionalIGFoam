@@ -1,0 +1,11 @@
+DEPENDENCIES = \
+EulerD3dt3Scheme/EulerD3dt3Scheme.dep\
+timestepManager/timestepManagerIterative.dep\
+timestepManager/timestepManagerTruncation.dep\
+timestepManager/multiDtManager.dep\
+JacobianMatrix/JacobianMatrix.dep\
+multiMesh/multiMesh/multiMesh.dep\
+multiMesh/multiMesh/multiMeshNew.dep\
+multiMesh/simpleMesh/simpleMesh.dep\
+multiMesh/dualStaticMesh/dualStaticMesh.dep\
+multiMesh/dualDynamicMesh/dualDynamicMesh.dep

@@ -1,0 +1,9 @@
+OBJECTS = \
+$(OBJECTS_DIR)/DEMfile.o\
+$(OBJECTS_DIR)/XYfile.o\
+$(OBJECTS_DIR)/eventFile.o\
+$(OBJECTS_DIR)/outputField.o\
+$(OBJECTS_DIR)/outputEventFile.o\
+$(OBJECTS_DIR)/sourceEventFile.o\
+$(OBJECTS_DIR)/patchEventFile.o\
+$(OBJECTS_DIR)/infiltrationEventFile.o

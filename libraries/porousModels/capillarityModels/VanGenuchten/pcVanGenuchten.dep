@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/pcVanGenuchten.o: capillarityModels/VanGenuchten/pcVanGenuchten.dep
+capillarityModels/VanGenuchten/pcVanGenuchten.dep: capillarityModels/VanGenuchten/pcVanGenuchten.C
+capillarityModels/VanGenuchten/pcVanGenuchten.dep: capillarityModels/VanGenuchten/pcVanGenuchten.H
+capillarityModels/VanGenuchten/pcVanGenuchten.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/pcVanGenuchten.o: $(EXE_DEP)
+$(OBJECTS_DIR)/pcVanGenuchten.o:
+	@SOURCE_DIR=capillarityModels/VanGenuchten
+	SOURCE=capillarityModels/VanGenuchten/pcVanGenuchten.C ; $(Ctoo)

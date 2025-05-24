@@ -1,0 +1,4 @@
+include darcyGradPressure/darcyGradPressure.dep
+include darcyGradPressureAniso/darcyGradPressureAniso.dep
+include eventFlux/eventFlux.dep
+include eventInfiltration/eventInfiltration.dep

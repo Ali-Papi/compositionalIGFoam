@@ -1,0 +1,11 @@
+OBJECTS = \
+$(OBJECTS_DIR)/EulerD3dt3Scheme.o\
+$(OBJECTS_DIR)/timestepManagerIterative.o\
+$(OBJECTS_DIR)/timestepManagerTruncation.o\
+$(OBJECTS_DIR)/multiDtManager.o\
+$(OBJECTS_DIR)/JacobianMatrix.o\
+$(OBJECTS_DIR)/multiMesh.o\
+$(OBJECTS_DIR)/multiMeshNew.o\
+$(OBJECTS_DIR)/simpleMesh.o\
+$(OBJECTS_DIR)/dualStaticMesh.o\
+$(OBJECTS_DIR)/dualDynamicMesh.o

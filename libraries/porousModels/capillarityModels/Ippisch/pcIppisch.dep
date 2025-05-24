@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/pcIppisch.o: capillarityModels/Ippisch/pcIppisch.dep
+capillarityModels/Ippisch/pcIppisch.dep: capillarityModels/Ippisch/pcIppisch.C
+capillarityModels/Ippisch/pcIppisch.dep: capillarityModels/Ippisch/pcIppisch.H
+capillarityModels/Ippisch/pcIppisch.dep: $(WM_PROJECT_DIR)/src/foam/lnInclude/addToRunTimeSelectionTable.H
+$(OBJECTS_DIR)/pcIppisch.o: $(EXE_DEP)
+$(OBJECTS_DIR)/pcIppisch.o:
+	@SOURCE_DIR=capillarityModels/Ippisch
+	SOURCE=capillarityModels/Ippisch/pcIppisch.C ; $(Ctoo)

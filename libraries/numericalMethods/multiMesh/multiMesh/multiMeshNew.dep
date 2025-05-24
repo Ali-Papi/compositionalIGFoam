@@ -1,0 +1,7 @@
+$(OBJECTS_DIR)/multiMeshNew.o: multiMesh/multiMesh/multiMeshNew.dep
+multiMesh/multiMesh/multiMeshNew.dep: multiMesh/multiMesh/multiMeshNew.C
+multiMesh/multiMesh/multiMeshNew.dep: multiMesh/multiMesh/multiMesh.H
+$(OBJECTS_DIR)/multiMeshNew.o: $(EXE_DEP)
+$(OBJECTS_DIR)/multiMeshNew.o:
+	@SOURCE_DIR=multiMesh/multiMesh
+	SOURCE=multiMesh/multiMesh/multiMeshNew.C ; $(Ctoo)

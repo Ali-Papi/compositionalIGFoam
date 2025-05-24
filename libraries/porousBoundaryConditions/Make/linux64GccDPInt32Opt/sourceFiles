@@ -1,0 +1,5 @@
+SOURCE = \
+darcyGradPressure/darcyGradPressure.C\
+darcyGradPressureAniso/darcyGradPressureAniso.C\
+eventFlux/eventFlux.C\
+eventInfiltration/eventInfiltration.C

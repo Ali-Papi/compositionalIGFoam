@@ -1,0 +1,5 @@
+OBJECTS = \
+$(OBJECTS_DIR)/darcyGradPressure.o\
+$(OBJECTS_DIR)/darcyGradPressureAniso.o\
+$(OBJECTS_DIR)/eventFlux.o\
+$(OBJECTS_DIR)/eventInfiltration.o

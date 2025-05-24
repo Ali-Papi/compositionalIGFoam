@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/keywords.o: keywords.dep
+keywords.dep: keywords.C
+keywords.dep: keywords.H
+keywords.dep: keywords_map.H
+$(OBJECTS_DIR)/keywords.o: $(EXE_DEP)
+$(OBJECTS_DIR)/keywords.o:
+	@SOURCE_DIR=.
+	SOURCE=keywords.C ; $(Ctoo)

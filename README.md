@@ -2,7 +2,7 @@
 # 📌 compositionalIGFoam Repository Documentation
 
 [![DOI](https://img.shields.io/badge/DOI-10.3390/en17143401-blue)](https://www.mdpi.com/1996-1073/17/14/3401)
-[![DOI](https://img.shields.io/badge/DOI-10.3390/en17143401-blue)](https://events.interpore.org/event/46/contributions/7161)
+[![DOI](https://img.shields.io/badge/DOI-InterPore2024-blue)](https://events.interpore.org/event/46/contributions/7161)
 
 # CompositionalIGFoam for OpenFOAM
 About

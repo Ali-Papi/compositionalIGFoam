@@ -39,7 +39,7 @@ It is based on the OpenFOAM environment and therefore benefits from its multiple
 
 > source /opt/openfoamv6/etc/bashrc
 
-- then in the "porousMultiphaseFoam" directory, run :
+- then in the "compositionalIGFoam" directory, run :
 
 > ./Allwmake -jX
 

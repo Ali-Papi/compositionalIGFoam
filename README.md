@@ -13,7 +13,7 @@ The developed model is the first of its kind in OpenFOAM to address CO2/water in
 
 ## Origin
 
-This code is based on [porousMultiphaseFoam(PMF)](https://github.com/phorgue/porousMultiphaseFoam), originally developed by Horgue et al. (2015).
+This code is based on porousMultiphaseFoam(PMF), originally developed by Horgue et al. (2015).
 
 **PMF** is an open-source toolbox dedicated to simulation of flow and transport processes in porous media.
 

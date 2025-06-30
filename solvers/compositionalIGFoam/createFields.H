@@ -138,8 +138,8 @@ dictionary subDict1 = subDict0.subDict("Species");
 //dimensionedScalar D1 = subDict1.lookup("D1");
 //dimensionedScalar D2 = subDict1.lookup("D2");
 dimensionedScalar H = subDict1.lookup("H");
-dimensionedScalar Mw = subDict1.lookup("Mw");
-dimensionedScalar Mg = subDict1.lookup("Mg");
+dimensionedScalar Mw = subDict1.lookup("Mw")*1e-3;
+dimensionedScalar Mg = subDict1.lookup("Mg")*1e-3;
 dimensionedScalar Psat = subDict1.lookup("Psat");
 
 volScalarField PH = p/H;
